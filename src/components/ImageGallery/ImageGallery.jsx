@@ -3,6 +3,7 @@ import css from "./ImageGallery.module.css";
 
 const ImageGallery = ({ images, openModal }) => {
   return (
+    <div className={css.container}>
     <ul className={css.gallery}>
       {images.map((img, i) => {
         return (
@@ -16,6 +17,7 @@ const ImageGallery = ({ images, openModal }) => {
         );
       })}
     </ul>
+    </div>
   );
 };
 

@@ -3,9 +3,8 @@ body {
   line-height: 1.5;
   font-style: normal;
   color: white;
-  margin: 0 auto;
+  margin: 0;
   padding: 60px 16px;
-  max-width: 1158px;
 }
 
 h1,
