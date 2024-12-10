@@ -1,0 +1,30 @@
+.bar {
+  padding: 12px;
+  padding-left: 40px;
+  outline: transparent;
+  border-radius: 12px;
+  border: none;
+  width: 400px;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  transform: translateY(30%);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
